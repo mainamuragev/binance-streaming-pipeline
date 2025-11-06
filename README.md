@@ -60,8 +60,6 @@ Access services:
 - Ingestion rate (`rate(trades_ingested_total[1m])`)
 - MongoDB insert latency (avg, p95)
 - Trade count in MongoDB
-- CPU and memory usage
-
 ---
 
 ## 📄 License
@@ -74,3 +72,4 @@ MIT — feel free to fork, modify, and share.
 
 Built by [Maina Murage](https://github.com/mainamuragev) — backend/data engineer passionate about streaming pipelines, observability, and infrastructure clarity.
 ```
+
