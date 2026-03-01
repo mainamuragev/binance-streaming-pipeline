@@ -1,22 +1,22 @@
 ```markdown
-# 📦 Binance Streaming Pipeline
+#  Binance Streaming Pipeline
 
 Real-time crypto trade ingestion pipeline using Kafka, MongoDB, Prometheus, and Grafana. Streams Binance trades via WebSocket, persists them in MongoDB, and exposes metrics for observability. Fully containerized with Docker Compose for modularity, transparency, and performance monitoring.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Live trade ingestion from Binance WebSocket
-- ✅ Kafka-based streaming architecture
-- ✅ MongoDB persistence
-- ✅ Prometheus metrics (`/metrics` endpoint)
-- ✅ Grafana dashboard for observability
-- ✅ Docker Compose orchestration
+-  Live trade ingestion from Binance WebSocket
+-  Kafka-based streaming architecture
+-  MongoDB persistence
+-  Prometheus metrics (`/metrics` endpoint)
+-  Grafana dashboard for observability
+-  Docker Compose orchestration
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 ```
 Binance WebSocket → Kafka → Consumer → MongoDB
@@ -29,7 +29,7 @@ Binance WebSocket → Kafka → Consumer → MongoDB
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ```bash
 git clone https://github.com/mainamuragev/binance-streaming-pipeline.git
@@ -45,7 +45,7 @@ Access services:
 
 ---
 
-## 📊 Metrics Exposed
+##  Metrics Exposed
 
 - `trades_ingested_total`
 - `mongodb_insert_latency_seconds`
@@ -54,7 +54,7 @@ Access services:
 
 ---
 
-## 📈 Grafana Panels (Suggested)
+##  Grafana Panels (Suggested)
 
 - Total trades ingested
 - Ingestion rate (`rate(trades_ingested_total[1m])`)
@@ -62,14 +62,15 @@ Access services:
 - Trade count in MongoDB
 ---
 
-## 📄 License
+##  License
 
 MIT — feel free to fork, modify, and share.
 
 ---
 
-## 🙌 Author
+##  Author
 
 Built by [Maina Murage](https://github.com/mainamuragev) — backend/data engineer passionate about streaming pipelines, observability, and infrastructure clarity.
 ```
+
 
